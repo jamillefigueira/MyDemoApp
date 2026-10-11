@@ -1,0 +1,122 @@
+Através do APK info descobrimos 2 informações:
+
+appPackage - com.saucelabs.mydemoapp.android
+
+appActivity - com.saucelabs.mydemoapp.android.view.activities.SplashActivity
+
+// (npm i --save webdriverio)
+
+✔ A project named "mydemoapp147" was detected at "D:\Jamille\Iterasys\MyDemoApp147", correct? Yes
+✔ What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
+✔ Where is your automation backend located? On my local machine
+✔ Which environment you would like to automate? Mobile - native, hybrid and mobile web apps, on Android or iOS
+✔ Which mobile environment you'd like to automate? Android - native, hybrid and mobile web apps, tested on emulators and real devices
+    > using UiAutomator2 (https://www.npmjs.com/package/appium-uiautomator2-driver)
+✔ Which framework do you want to use? Cucumber (https://cucumber.io/)
+✔ Do you want to use Typescript to write tests? No
+✔ Do you want WebdriverIO to autogenerate some test files? Yes
+✔ What should be the location of your feature files? D:\Jamille\Iterasys\MyDemoApp147\features\**\*.feature
+✔ What should be the location of your step definitions? D:\Jamille\Iterasys\MyDemoApp147\features\step-definitions\steps.js
+✔ Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? Yes
+✔ Where are your page objects located? D:\Jamille\Iterasys\MyDemoApp147\features\pageobjects\**\*.js
+✔ Which reporter do you want to use? spec
+✔ Do you want to add a plugin to your test setup? 
+✔ Would you like to include Visual Testing to your setup? For more information see https://webdriver.io/docs/visual-testing No
+✔ Do you want to add a service to your test setup? appium
+✔ Do you want me to run `npm install` Yes
+
+
+Installing packages using npm:
+- @wdio/local-runner@latest
+- @wdio/cucumber-framework@latest
+- @wdio/spec-reporter@latest
+- @wdio/appium-service@latest
+- appium-uiautomator2-driver
+
+
+npm warn deprecated reflect-metadata@0.2.1: This version has a critical bug in fallback handling. Please upgrade to reflect-metadata@0.2.2 or newer.
+npm warn deprecated reflect-metadata@0.2.1: This version has a critical bug in fallback handling. Please upgrade to reflect-metadata@0.2.2 or newer.
+npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated uuid@9.0.1: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm warn deprecated uuid@9.0.1: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm warn deprecated uuid@9.0.1: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm warn deprecated uuid@10.0.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+
+added 137 packages, and audited 1009 packages in 18s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (12 moderate, 14 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 4 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   appium@3.7.0 (install: (install scripts present))
+npm warn allow-scripts   edgedriver@6.3.1 (install: (install scripts present))
+npm warn allow-scripts   esbuild@0.28.2 (install: (install scripts present))
+npm warn allow-scripts   geckodriver@6.1.1 (install: (install scripts present))
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+✔ Success!
+
+Creating a WebdriverIO config file...
+✔ Success!
+
+Autogenerate test files...
+✔ Success!
+
+Adding "wdio" script to package.json
+✔ Success!
+
+🤖 Successfully setup project at D:\Jamille\Iterasys\MyDemoApp147 🎉
+
+Join our Discord Community Server and instantly find answers to your issues or queries. Or just join and say hi 👋!
+  🔗 https://discord.webdriver.io
+
+Visit the project on GitHub to report bugs 🐛 or raise feature requests 💡:
+  🔗 https://github.com/webdriverio/webdriverio
+
+To run your tests, execute:
+$ cd D:\Jamille\Iterasys\MyDemoApp147
+$ npm run wdio
+
+✔ Continue with Appium setup using appium-installer (https://github.com/AppiumTestDistribution/appium-installer)? No
+Ok! You can learn more about setting up mobile environments in the Appium docs at https://appium.io/docs/en/latest/quickstart/
+
+Paulo@DESKTOP-CAIV7ID MINGW64 /d/Jamille/Iterasys/MyDemoApp147
+$ 
+
+// npm i --save-dev @wdio/cli
+
+// node tests/mobile/exemplo.spec.js
+
+//npm run wdio
+
+When ("seleciono o produto na {string}", async (posicao) => { 
+      const produto = await driver.$(
+    `-android uiautomator:new UiSelector().resourceId("com.saucelabs.mydemoapp.android:id/productIV").instance(${posicao})`,
+  );
+await produto.click();
+});
+
+npx wdio wdio.sauce.conf.js
+
+#####################################
+Em aula nós trabalhamos com o aplicativo MyDemoApp executando no Saucelabs. Você deve continuar o projeto, adicionando o produto ao carrinho de compra, indo até o carrinho e validando a quantidade, nome e preço do produto. Para esse objetivo, é mais simples e seguro duplicar o projeto e trabalhar em cima da cópia. Assim você não perde o que já está funcionando.
+
+Utilize o www.loom.com ou www.jam.dev para filmar a execução dos seus testes. Compartilhe o(s) link(s) de forma publica.
+
+Suba o seu projeto para o GitHub publicamente, e experimente o acesso dele e do vídeo em uma aba anônima. Estando tudo certo, clique no botão Prosseguir abaixo
+
+#########
+No Git Bash, use este formato:
+
+export SAUCE_USER="seu_usuario_sauce"
+export SAUCE_KEY="sua_chave_sauce"

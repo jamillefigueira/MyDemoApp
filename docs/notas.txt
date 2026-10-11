@@ -1,0 +1,3 @@
+consegui: <android.widget.TextView text="Sauce Labs Backpack" resource-id="com.saucelabs.mydemoapp.android:id/titleTV"> 
+ <android.widget.TextView text="1" resource-id="com.saucelabs.mydemoapp.android:id/noTV"> 
+  <android.widget.TextView text="$ 29.99" resource-id="com.saucelabs.mydemoapp.android:id/priceTV">  
